@@ -1,0 +1,18 @@
+table{
+    color:red;
+    font-family: verdana;
+    background: lime;
+}
+
+p{
+    color:green;
+}
+
+h1{
+    color: purple;
+    text-decoration:underline;
+    text-transform: capitalize;
+}
+
+
+

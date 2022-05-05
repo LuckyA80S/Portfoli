@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Llistes</title>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" type="text/css" href="exercici8.css"/>
+    </head>
+    <body>
+        <!-- Llista numèrica o ordenada-->
+        <ol>
+            <li>Primer punt</li>
+            <li>Segon punt</li>
+            <li>Tercer punt</li>
+            <li>Quart punt</li>            
+        </ol>
+        
+        <!-- La numeració d'una llista numèrica pot ser de diferents tipus:
+        
+                1: enters (1, 2, 3...).
+                a: lletres minúscules (a, b, c...).
+                A: lletres majúscules (A, B, C...).
+                i: números romans en minúscules (i, ii, iii...).
+                I: números romans en majúscules (I, II, III...).
+        
+             Per canviar el tipus, utilitzem l'atribut type dins l'element <ol>.
+        -->
+
+        <!-- Llista numèrica amb números romans en majúscula -->
+        <ol type="I">
+            <li>Primer punt</li>
+            <li>Segon punt</li>
+            <li>Tercer punt</li>
+            <li>Quart punt</li>            
+        </ol>
+        
+        <!-- Les llistes numèriques no tenen per què començar per 1, poden començar pel
+             número que vulguem. Per això fem servir l'atribut start i com a valor
+             li assignem el número pel qual volem que comenci la nostra llista.-->
+        
+        <!-- Llista numèrica que comença per 222 -->
+        <ol start="222">
+            <li>Primer punt</li>
+            <li>Segon punt</li>
+            <li>Tercer punt</li>
+            <li>Quart punt</li>            
+        </ol>
+        
+        <!-- Les llistes numèriques poden númerar-se de forma invertida. Per això 
+             fem servir el valor constant "reversed".-->
+        
+        <!-- Llista numèrica amb la numeració invertida -->
+        <ol reversed>
+            <li>Primer punt</li>
+            <li>Segon punt</li>
+            <li>Tercer punt</li>
+            <li>Quart punt</li>            
+        </ol>
+        
+        <!-- Llista numèrica invertida amb números romans en minúscules que comença per 222-->
+        <ol reversed type="i" start="222">
+            <li>Primer punt</li>
+            <li>Segon punt</li>
+            <li>Tercer punt</li>
+            <li>Quart punt</li>            
+        </ol>
+        
+        <!-- Llista desordenada. Numeració amb vinyetes-->
+        <ul>
+            <li>Primer punt</li>
+            <li>Segon punt</li>
+            <li>Tercer punt</li>
+            <li>Quart punt</li>            
+        </ul>
+        
+        <!-- Llista de definicions-->
+        <dl>
+            <dt>Primer element a definir:</dt>
+            <dd>Definició del primer element</dd>
+            <dt>Segon element a definir:</dt>
+            <dd>Definició del segon element</dd>         
+        </dl>
+        
+        <div class="index"><a href='index.html'>Tornem a l'índex</a></div>
+    </body>
+</html>

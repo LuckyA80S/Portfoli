@@ -1,0 +1,50 @@
+a{
+    text-decoration:none;
+    color:#FF0080;
+    font-size: 5em;
+}
+
+a:hover{
+    background: #FF0080;
+    color: gold;
+}
+
+a:visited{
+    color:#6699CC;
+}
+
+div a:visited{
+    background:mediumorchid;
+}
+
+ul li{
+    display: inline;
+}
+
+li.primer{
+   list-style-image: url("../imatges/fletxa.png"); 
+}
+
+li.segon{
+   list-style-image: url("../imatges/fletxa.png"); 
+}
+
+li.tercer{
+   list-style-image: url("../imatges/fletxa.png"); 
+}
+
+li.quart{
+   list-style-image: url("../imatges/fletxa.png"); 
+}
+
+li.cinque{
+   list-style-image: url("../imatges/fletxa.png"); 
+}
+
+li.sise{
+   list-style-image: url("../imatges/fletxa.png"); 
+}
+
+li.sete{
+   list-style-image: url("../imatges/fletxa.png"); 
+}

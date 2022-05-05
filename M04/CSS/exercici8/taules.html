@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Taules</title>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" type="text/css" href="exercici8.css"/>
+    </head>
+    <body>
+        <p>
+            <!-- L'element <table> l'indica al sistema que això és una taula. Border és un atribut obsolet en HTML5 -->
+            <table border='5'> 
+                <caption> Taula 1 </caption> <!-- Element opcional el continguat del qual és el títol de la taula-->
+                <tr> <!-- Primera fila de la taula. El contingut de l'element <tr> són només els elements <th> o <td>-->
+                    <!-- Els elements <th> són opcionals i són les cel.les de capçalera de la primera fila.
+                    El seu contingut és el contingut de les cel.les que es mostra per pantalla i pot ser de 
+                    qualsevol mena. Si és text pla, es mostra en negreta -->
+                    <th>Columna1</th> <!-- Cel.la primera de la primera fila -->
+                    <th>Columna2</th> <!-- Cel.la segon de la primera fila -->
+                    <th>Columna3</th> <!-- Cel.la tercera de la primera fila -->
+                </tr>
+                <tr> <!-- Segona fila de la taula -->   
+                    <!-- Els elements <td> són les cel.les de la fila a la qual pertanyen. El seu contingut
+                    és el contingut de les cel.les que es mostra per pantalla i pot ser de qualsevol mena -->
+                    <td>cel.la 2-1</td> <!-- Cel.la primera de la primera fila -->
+                    <td>cel.la 2-2</td> <!-- Cel.la segon de la primera fila -->
+                    <td>cel.la 2-3</td> <!-- Cel.la tercera de la primera fila -->
+                </tr>
+                <tr> <!-- Segona fila de la taula -->   
+                    <td><img alt="bruixa" src="imatges/bruixa.jpg" width="20" height='20'/></td> <!-- Cel.la primera de la primera fila -->
+                    <td><img alt="carabassa" src="imatges/carabassa.jpg" width="20" height='20'/></td> <!-- Cel.la segon de la primera fila -->
+                    <td><img alt="osos" src="imatges/osos.jpg" width="20" height='20'/></td> <!-- Cel.la tercera de la primera fila -->
+                </tr>
+            </table>
+        </p>
+
+        <!-- 
+        L'element <td> pot tenir els següents atributs:
+            - colspan: Un enter que representa el nombre de cel·les cap a la dreta 
+              que aquesta cel·la hauria d'abastar. Com a resultat, aquesta cel·la 
+              tindrà un ample igual al seu ample original més l'ample de les cel·les 
+              que hauria d'abastar.
+            - rowspan: Un enter que representa el nombre de cel·les cap a baix que 
+              aquesta cel·la hauria d'abastar. Si l'enter és "0" abastarà totes les
+              cel.les de les files. Com a resultat, aquesta cel·la tindrà una alçada 
+              igual a la seva alçada original més l'ample de les cel·les que hauria d'abastar.
+        -->
+
+        <!-- Taula amb 2 files i dos columnes. La segona fila només és d'una columna -->
+        <p>
+            <table border='5'>
+                <caption> Taula 2 </caption>
+                    <tr>
+                        <td>Cel.la1</td>
+                        <td>Cel.la2</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Cel.la3</td>
+                    </tr>
+            </table>
+        </p>
+
+        <!-- Taula amb 2 files i dos columnes. La primera columna només és d'una fila -->
+        <p>
+            <table border='5'>
+                <caption> Taula 3 </caption>
+                <tr>
+                    <td rowspan="2">Cel.la1</td>
+                    <td>Cel.la2</td>
+                </tr>
+                <tr>
+                    <td>Cel.la3</td>
+                </tr>
+            </table>
+        </p>
+        
+        
+        <div class="index"><a href='index.html'>Tornem a l'índex</a></div>
+    </body>
+</html>

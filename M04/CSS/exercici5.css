@@ -1,0 +1,62 @@
+*{ 
+    text-align:center;
+}
+
+caption{
+    background-image:url("imatges/fletxa.png"); 
+    background-repeat:no-repeat;
+    font-family: Verdana;
+}
+
+td.m01{
+    background-color:#6699CC;
+    font-family: "Comic Sans";
+}
+
+td.m02{
+    background-color:#FFCC99;
+    font-family: "Comic Sans";
+}
+
+td.m03{
+    background-color:burlywood;
+    font-family: "Comic Sans";
+}
+
+td.m04{
+    background-color:orange;
+    font-family: "Comic Sans";
+}
+
+td.tut{
+    background-color:#8A8E27;
+    font-family: "Comic Sans";
+}
+
+td.fol{
+    background-color:greenyellow;
+    font-family: "Comic Sans";
+}
+
+td.eie{
+    background-color:lightsalmon;
+    font-family: "Comic Sans";
+}
+
+td.pati{
+    background-image:url("imatges/fletxa.png"); 
+}
+
+.horesDies{
+    background-color:gold;
+}
+
+tr.horesDies{
+    font-family: arial;
+}
+
+td.horesDies{
+    font-family: "Times New Roman";
+    text-align:left;
+}
+

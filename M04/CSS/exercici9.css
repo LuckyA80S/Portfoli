@@ -1,0 +1,32 @@
+body {
+  background-color:#FFCC99;
+  font-family: sans-serif;
+}
+
+h1 {
+  color:brown;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 2em;
+}
+
+p.intro {
+  color:blueviolet;
+}
+
+li {
+  font-size: 2em;
+  list-style-image:url("imatges/fletxa.png");
+}
+
+span.parell {
+  background-color: white;
+}
+
+span.imparell {
+  background-color:coral;
+}
+
+

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--
+Els enllaços HTML d'una pàgina web, són hipervíncles que ens porten a altres pàgines 
+o seccions de la mateixa pàgina. Poden ser de tres tipus:
+    - Enllaços absoluts: ens porten a pàgines d'altres llocs web.
+    - Enllaços relatius: ens porten a pàgines situades dins del mateix sistema 
+      on es troba la pàgina on s'ha definit l'enllaç.
+    - Enllaços dins la mateixa pàgina: ens porten a altres seccions de la mateixa
+      pàgina on s'ha definit l'enllaç.
+-->
+<html>
+    <head>
+        <title>Enllaços</title>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" type="text/css" href="exercici8.css"/>
+    </head>
+    <body>
+        <!-- Els enllaços poden tenir els següents atributs entre d'altres:
+                - href (obligatori): assignem l'adreça on es troba la pàgina o secció
+                  a la qual volem accedir.
+                - target: Indica on obrirem la pàgina a la qual enllacem. Els valors 
+                  més habituals poden ser:
+                    - _blank: en una nova finestra o pestanya.
+                    - _self: valor per defecte. S'obre en la mateixa finestra.
+        -->
+        
+        <!-- Enllaç a la secció 1 de la nostra pàgina obrint-la en la mateixa 
+        finestra on ens trobem -->
+        <p><a href='#seccio' target='_self'>Enllaç a la secció 1</a></p>
+        
+        <!-- Enllaç absolut a la pàgina inicial de Google obrint-la en una altra pestanya o finestra -->
+        <p><a href='https://www.google.com/' target='_blank'>Enllaç a Google</a></p>
+        
+        <!-- Enllaç relatiu a la pàgina index.html del directori on es troba la pàgina
+        enllacos.html obrint-la en la mateixa finestra on ens trobem -->
+        <p><a href='principal/index.html'>Enllaç a index.html</a></p>
+        
+        <br/><br/><br/><br/><br/><br/>
+        <p id="seccio">Secció 1</p> <!--secció a la que saltem des del primer enllaç-->
+        
+        <div class="index"><a href='index.html'>Tornem a l'índex</a></div>
+    </body>
+</html>

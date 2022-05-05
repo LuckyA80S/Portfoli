@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!-- Implementem amb HTML l'esquema dels contenidors de la pàgina del mòdul-->
+<html>
+    <head>
+        <title>Contenidors</title>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" type="text/css" href="exercici8.css"/>
+    </head>
+    <body>
+        <!-- tots els contenidors inclouen salts de línia a l'inici i final, menys span-->
+        <header> <!-- Contenidor que semànticament indica al navegador que aquesta és la capçalera de la pàgina.
+                 Normalment s'inclou el nom de la pàgina, el perfil d'usuari, etc..-->
+            <div>Contenidor generic d'HTML que no té significat semàntic.</div>
+        </header>
+        <nav> <!-- Contenidor que semànticament indica al navegador que aquesta és el contenidor de navegació.
+                 Normalment s'inclou el menú de la pàgina. En aquest cas seria el nostre menú horitzontal.-->
+            <div>Menú Horitzontal</div>
+            <ul>
+                <li>Entrada 1</li>
+                <li>Entrada 2</li>
+                <li>Entrada 3</li>
+                <li>Entrada 4</li>
+            </ul>
+        </nav>
+        <nav> <!-- En aquest cas seria el nostre menú horitzontal vertical.-->
+            <div>Menú Vertical</div>
+            <ul>
+                <li>Entrada 1</li>
+                <li>Entrada 2</li>
+                <li>Entrada 3</li>
+                <li>Entrada 4</li>
+            </ul>
+        </nav>
+        <section><!-- Contenidor que semànticament indica al navegador que aquesta és una secció de la pàgina.
+                 Normalment s'inclou un contingut de la pàgina què es considera una secció, és a dir,
+                 un contingut amb una temàtica definida que d'una manera o altra la fa diferent d'altres continguts.-->
+            <header>Títol de la secció</header> <!-- Normalment les seccions tenen un títol-->
+            <article> Article de la secció</article> <!-- Contenidor que semànticament indica al navegador que aquest és un article de la pàgina.
+                                                     Normalment s'inclou un bloc de contingut què és independent al contigut de la pàgina. -->
+            <footer>Peu de la secció</footer> <!-- Contenidor que semànticament indica al navegador que aquest és un peu d'una secció o d'una pàgina.
+                                              Normalment s'inclouen signatures, informació de l'autor de la secció o pàgina, informació de llicències, etc. -->
+        </section> 
+        <aside> <!-- Contenidor que semànticament indica al navegador que aquesta és una informació a part d'una secció o d'una pàgina.
+                Normalment s'inclouen informacions no rellevants relacionades amb el contingut de la pàgina com pensaments,
+                tweets, notes, imatges, etc.-->
+            <p> Pensament sobre el contingut de la pàgina </p>
+        </aside>
+        <footer> <!-- Peu de la nostra pàgina-->
+            <!-- span és un contenidor genèric sense significat semàntic, creat per donar estil 
+            a fragments petits de text. És l'únic contenidor que no inclou salts de línia-->
+            <span>Tots els drets reservats © 2020</span>
+            <span>Autor: Xesca Tomás</span>
+        </footer>
+        
+        
+        <div><a href='index.html'>Tornem a l'índex</a></div>
+    </body>
+</html>

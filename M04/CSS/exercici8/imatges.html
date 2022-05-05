@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Imatges</title>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" type="text/css" href="exercici8.css"/>
+    </head>
+    <body>
+        <!--
+        L'element img serveix per inserir una imatge en les pàgines web. Els atributs
+        més importants que l'acompanyen són:
+            - src: adreça on es troba la imatge a mostrar. L'adreça pot ser absoluta
+              o relativa.
+            - alt: breu descripció de la imatge que es mostra en substitució de 
+              la imatge si aquesta no es pot mostrar.
+            - width: amplada en píxels que tindrà la imatge en la pàgina web.
+            - height: alçada en píxels que tindrà l'imatge en la pàgina web.   
+        Hem de tenir en compte que:
+            - Les imatges es col.loquen per defecte d'esquerra a dreta, i de dalt a baix.
+            - Segon la mida original d'imatge i la mida que li donem amb els atributs
+              width i height, la imatge es veurà deformada.        
+        -->
+        
+        <!-- Mostrem la imatge bruixa.jpg amb text alternatiu "bruixa" i mida original. -->
+        <img alt="bruixa" src="../../codisExemple/imatges/bruixa.jpg"/>
+        
+        <!-- 
+        Mostrem les imatges carabassa.jpg i osos.jpg amb text alternatiu 
+        "carabassa" i "osos" amb una mida diferent de l'original, en concret: 
+            - En la primera i segona imatge 300 píxels d'amplada per 300 píxels d'alçada.
+            - En la tercera imatge 100 píxels d'amplada per 50 píxels d'alçada.
+        -->
+        <img alt="carabassa" src="../../codisExemple/imatges/carabassa.jpg" width="300" height='300'/>
+        <img alt="osos" src="../../codisExemple/imatges/osos.jpg" width="300" height='300'/>
+        <img alt="carabassa" src="../../codisExemple/imatges/carabassa.jpg" width="100" height='50'/>
+
+
+        <div class="index"><a href='index.html'>Tornem a l'índex</a></div>        
+    </body>
+</html>

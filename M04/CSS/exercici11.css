@@ -1,0 +1,38 @@
+
+body {
+  margin: 10px 10%;
+  background-color: lightgray;
+  font-family: sans-serif;
+  text-align: justify;
+}
+
+h1 {
+  font-size: 300%;
+  letter-spacing: 10px;
+  text-align: center;
+}
+
+h2 {
+  padding: 0.2rem 0.5em;
+  background-color: gray;
+  color: white;
+  font-size: 200%;
+}
+
+p {
+  margin-left: 10%;
+  margin-right: 10%;
+  text-indent: 2em;
+}
+
+img {
+  margin: 0 10px 10px 0;
+}
+
+strong {
+  background-color: white;
+}
+
+b {
+  color: red;
+}
